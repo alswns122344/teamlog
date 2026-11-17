@@ -1,0 +1,11 @@
+node_modules
+dist
+*.log
+
+# 환경변수: .env, .env.local, .env.production 등 모두 제외 (예시 파일만 허용)
+.env
+.env.*
+!.env.example
+
+# Claude Code 개인 로컬 설정
+.claude/settings.local.json
